@@ -16,7 +16,7 @@ sudo docker exec -d clab-frr01-client3 ip route add 10.0.0.0/8 via 10.0.3.1 dev 
 #sudo docker exec -d clab-frr01-client3 ip route add 10.10.10.0/24 via 10.0.3.1/25 dev eth1
 
 sudo docker exec -d clab-frr01-client4 ip link set eth1 up
-sudo docker exec -d clab-frr01-client4 ip addr add 10.0.3.5/24 brd 10.0.3.127 dev eth1
+sudo docker exec -d clab-frr01-client4 ip addr add 10.0.3.5/25 brd 10.0.3.127 dev eth1
 sudo docker exec -d clab-frr01-client4 ip route add 10.0.0.0/8 via 10.0.3.1 dev eth1
 #sudo docker exec -d clab-frr01-client4 ip route add 10.10.10.0/24 via 10.0.3.1/25 dev eth1
 
@@ -101,13 +101,13 @@ sudo docker exec -d clab-frr01-Edge_server4 ip route add 10.0.0.0/8 via 10.0.5.6
 
 
 sudo docker exec -d clab-frr01-Edge_server5 ip link set eth1 up
-sudo docker exec -d clab-frr01-Edge_server5 ip addr add 10.0.1.135/25 brd 10.0.1.255 dev eth1
+sudo docker exec -d clab-frr01-Edge_server5 ip addr add 10.0.1.10/25 brd 10.0.1.255 dev eth1
 sudo docker exec -d clab-frr01-Edge_server5 ip route add 10.0.0.0/8 via 10.0.1.1 dev eth1
 #sudo docker exec -d clab-frr01-Edge_server5 ip route add 10.10.10.0/24 via 10.0.1.1/25 dev eth1
 
 
 sudo docker exec -d clab-frr01-Edge_server6 ip link set eth1 up
-sudo docker exec -d clab-frr01-Edge_server6 ip addr add 10.0.4.130/25 brd 10.0.4.255 dev eth1
+sudo docker exec -d clab-frr01-Edge_server6 ip addr add 10.0.4.30/25 brd 10.0.4.255 dev eth1
 sudo docker exec -d clab-frr01-Edge_server6 ip route add 10.0.0.0/8 via 10.0.4.1 dev eth1
 #sudo docker exec -d clab-frr01-Edge_server6 ip route add 10.10.10.0/24 via 10.0.4.1/25 dev eth1
 
