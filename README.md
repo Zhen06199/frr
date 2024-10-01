@@ -8,3 +8,5 @@ To start this lab, run the *run.sh* script, which will run the containerlab depl
 
 The lab configuration is documented in detail at: https://www.brianlinkletter.com/2021/05/use-containerlab-to-emulate-open-source-routers/
 
+# Add images
+run *topo.sh*
