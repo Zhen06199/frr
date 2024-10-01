@@ -1,4 +1,4 @@
-! Startup-config last modified at Thu Apr 25 08:20:02 2024 by root
+! Startup-config last modified at Tue Oct  1 09:09:09 2024 by root
 ! device: switch1 (cEOSLab, EOS-4.28.8.1M-32999662.42881M (engineering build))
 !
 no aaa root
@@ -39,8 +39,8 @@ interface Ethernet7
 interface Ethernet8
 !
 interface Management0
-   ip address 172.20.20.16/24
-   ipv6 address 2001:172:20:20::10/64
+   ip address 172.20.20.46/24
+   ipv6 address 2001:172:20:20::2e/64
 !
 no ip routing
 !
