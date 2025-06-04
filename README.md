@@ -1,4 +1,8 @@
 # Simple OSPF lab using FRR
+Description:
+This software package provides a container-based emulation environment for edge computing.  
+It includes common network elements such as clients, routers, and switches, and supports routing protocols like BGP and OSPF. The topology is modular, and users can easily extend it to suit their specific needs.
+
 
 This lab example consists of three FRR routers connected in a ring topology. Each router has one PC connected to it.
 
